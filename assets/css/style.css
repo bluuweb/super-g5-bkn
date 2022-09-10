@@ -1,0 +1,85 @@
+html {
+    box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: "Raleway", sans-serif;
+}
+
+h1 {
+    margin: 0;
+}
+
+.py-2 {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.container {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.fill-white {
+    fill: #fff;
+}
+
+.h-200 {
+    height: 200px;
+}
+
+.w-49 {
+    width: 49%;
+}
+
+.w-33 {
+    width: 33%;
+}
+
+.w-50 {
+    width: 50px;
+}
+
+/* Tarea para los super alumnos */
+.fill-white {
+    color: #fff;
+}
+
+.vertical-align {
+    vertical-align: middle;
+}
+
+.bg-dark {
+    background-color: black;
+}
+
+.bg-gray {
+    background-color: #1e1a13;
+}
+
+.font-xl {
+    font-size: 3rem;
+}
+
+.text-white {
+    color: white;
+}
+.text-center {
+    text-align: center;
+}
+.inline-block {
+    display: inline-block;
+}
+.bg-cat {
+    background-image: url("../img/bg-cat.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+}
